@@ -39,7 +39,7 @@
       bc_v_g(5) = 0.32 +0.32*(sin(2*Pi*2*time))
 
       ! Spout inlet velocity
-      bc_v_g(4) = 11.91 !+0.0877*(sin(2*Pi*5.0*time))
+      bc_v_g(4) = 11.91
 
       call set_bc0_flow
 
